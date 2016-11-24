@@ -12,20 +12,22 @@ static double d = 2.3;
 
 static boolean bool = true;
 static boolean bool2 = false;
+static String st = "Hello world!";
+static char c = 'M';
 
 public static void main(String [] args)
 {
-    System.out.print("byte: " + b);
-    System.out.print("short: " + sh);
-    System.out.print("int: "  + i);
-    System.out.print("long: "  + l);
+    System.out.println("byte: " + b);
+    System.out.println("short: " + sh);
+    System.out.println("int: "  + i);
+    System.out.println("long: "  + l);
 
-    System.out.print("float: " + fl);
-    System.out.print("double: " + d);
-    System.out.print(bool);
-    System.out.print(bool2);
-
-
+    System.out.println("float: " + fl);
+    System.out.println("double: " + d);
+    System.out.println(bool);
+    System.out.println(bool2);
+    System.out.println(st);
+    System.out.print(c);
 
 
 }
