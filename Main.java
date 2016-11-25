@@ -1,25 +1,20 @@
-package com.devcolibri;
 
 public class Main{
-/*
-static byte b = 8;
-static short sh = 34;
-static int i= 248;
-static long l = 56;
-
-static float fl = 2.3f;
-static double d = 2.3;
-
-static boolean bool = true;
-static boolean bool2 = false;
-static String st = "Hello world!";
-static char c = 'M';*/
-public static final int CONST = 88;
+    static Integer in = 2;
+    static Float fl = 2.6f;
+    static Short s = 3;
+    static Double f= 7.8;
+    static String st = "27";
 
 public static void main(String [] args)
 {
+    Number n =fl;
+    Number n1= new Double(2.1);
+    Integer r1 =  n.intValue();
+    System.out.println(r1);
 
-System.out.println(CONST);
+
+
 
 }
 
