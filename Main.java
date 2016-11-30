@@ -2,10 +2,16 @@ package com.devcolibri;
 
 public class Main {
     public static void main(String[] args){
-        calcSum(4,7);
+        int val=calcSum(-4,4);
+        System.out.println(val);
     }
-static void calcSum(int a, int b){
-    System.out.println(a+b);
+static int calcSum(int a, int b){
+        int sum =a+b;
+        if(sum == 0)
+        {
+          sum=calcSum(4,4);
+        }
+    return sum;
 }
 
     }
