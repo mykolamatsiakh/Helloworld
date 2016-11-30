@@ -1,14 +1,12 @@
+package com.devcolibri;
 
 public class Main {
-
-   public static void main(String [] args){
-    String[] st = "Hello World".split(" ");
-
-    for(String s:st){
-        System.out.println(s);
+    public static void main(String[] args){
+        calcSum(4,7);
     }
-   }
-
-
+static void calcSum(int a, int b){
+    System.out.println(a+b);
 }
+
+    }
 
